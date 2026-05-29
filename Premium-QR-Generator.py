@@ -103,7 +103,7 @@ entry = ctk.CTkEntry(
     app,
     width=500,
     height=50,
-    placeholder_text="Enter URL or Text"
+    placeholder_text="Enter Text or URL Here"
 )
 
 entry.pack(pady=20)
@@ -116,7 +116,8 @@ color_option = ctk.CTkComboBox(
         "blue",
         "red",
         "green",
-        "purple"
+        "purple",
+        "orange"
     ],
     width=200
 )
