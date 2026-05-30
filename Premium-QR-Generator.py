@@ -117,7 +117,9 @@ color_option = ctk.CTkComboBox(
         "red",
         "green",
         "purple",
-        "orange"
+        "orange",
+        "brown",
+        "pink"
     ],
     width=200
 )
